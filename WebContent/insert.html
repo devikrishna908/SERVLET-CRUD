@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert</title>
+<script>
+	function redirect(){
+		window.location.href="index.html"
+	}
+</script>
+</head>
+<body>
+	<h1>Student Details</h1>
+	<form name="student-insert" action="createServlet" method="get">
+		Name : <input type="text" name="name" /><br>
+		<br> Mark : <input type="text" name="mark" /><br>
+		<br> <input type="submit" value="INSERT DATA" />&nbsp;&nbsp;
+		<input type="button" value="BACK" onclick="redirect()"/>
+	</form>
+
+</body>
+</html>
